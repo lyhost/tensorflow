@@ -82,3 +82,4 @@ message SavedTensorSlices {
   // This exists in all but the first item of each checkpoint file.
   SavedSlice data = 2;
 };
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/util";

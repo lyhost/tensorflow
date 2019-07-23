@@ -28,3 +28,4 @@ message ConstResultTest {
   Value value_for_dtype = 2;
   bool test_result = 3;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/decision_trees";

@@ -121,3 +121,4 @@ message OpPerformance {
 message OpPerformanceList {
   repeated OpPerformance op_performance = 1;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/grappler";

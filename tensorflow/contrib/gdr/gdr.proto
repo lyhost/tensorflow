@@ -10,3 +10,4 @@ message RemoteMemoryRegion {
   uint32 rkey = 4;
   uint32 tensor_key = 5;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/gdr";

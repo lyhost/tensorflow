@@ -30,3 +30,4 @@ service TestCaseService {
   rpc SometimesFailWithInvalidArgument(TestCase) returns (TestCase) {
   }
 };
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/rpc";

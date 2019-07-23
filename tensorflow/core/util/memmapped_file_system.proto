@@ -29,3 +29,4 @@ message MemmappedFileSystemDirectoryElement {
 message MemmappedFileSystemDirectory {
   repeated MemmappedFileSystemDirectoryElement element = 1;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/util";

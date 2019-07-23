@@ -111,3 +111,4 @@ message ConvolutionDescriptorProto {
   // Tensorflow node name, same as in NodeDef, for debugging purposes.
   string name = 7;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/stream_executor/dnn.proto";

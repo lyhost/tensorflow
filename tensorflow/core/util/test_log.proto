@@ -217,3 +217,4 @@ message TestResults {
   // This can be either set to full version or just the major version.
   string tf_version = 12;
 };
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/util";

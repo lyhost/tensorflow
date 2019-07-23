@@ -37,3 +37,4 @@ message AdvisorOptionsProto {
     map<string, string> options = 1;
   }
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/profiler";

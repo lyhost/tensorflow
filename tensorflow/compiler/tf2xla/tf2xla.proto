@@ -78,3 +78,4 @@ message Config {
   // Optional conversion options.
   ConversionOptions conversion_options = 4;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/compiler/tf2xla";

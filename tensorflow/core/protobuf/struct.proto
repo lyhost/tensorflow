@@ -105,3 +105,4 @@ message TensorSpecProto {
   tensorflow.TensorShapeProto shape = 2;
   tensorflow.DataType dtype = 3;
 };
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf";

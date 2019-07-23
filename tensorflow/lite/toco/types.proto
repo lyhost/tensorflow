@@ -50,3 +50,4 @@ enum IODataType {
   // Half precision float, not quantized.
   FLOAT16 = 10;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/lite/toco";

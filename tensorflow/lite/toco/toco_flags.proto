@@ -219,3 +219,4 @@ message TocoFlags {
   // and error out on models with undetermined Tensor shape. (Default: True)
   optional bool allow_dynamic_tensors = 30 [default = true];
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/lite/toco";

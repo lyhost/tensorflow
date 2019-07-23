@@ -69,3 +69,4 @@ message Function {
   int64 filename = 4;
   int64 start_line = 5;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/profiler";

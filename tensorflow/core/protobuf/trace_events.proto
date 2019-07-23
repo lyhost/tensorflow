@@ -65,3 +65,4 @@ message TraceEvent {
   // Extra arguments that will be displayed in trace view.
   map<string, string> args = 11;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf";

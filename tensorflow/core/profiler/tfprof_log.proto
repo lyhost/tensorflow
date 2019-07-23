@@ -155,3 +155,4 @@ message Memory {
   int64 bytes = 1;
   uint64 ptr = 2;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/profiler";

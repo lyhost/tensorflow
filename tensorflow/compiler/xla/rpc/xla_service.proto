@@ -149,3 +149,4 @@ service XlaService {
       returns (WaitForExecutionResponse) {
   }
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/compiler/xla";

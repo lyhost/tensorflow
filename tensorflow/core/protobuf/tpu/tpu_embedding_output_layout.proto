@@ -73,3 +73,4 @@ message TPUEmbeddingOutputLayout {
   // Shape and layout information for each tensor.
   repeated EmbeddingOutputTensor output = 2;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf";

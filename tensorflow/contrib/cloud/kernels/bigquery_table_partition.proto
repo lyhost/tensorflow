@@ -10,3 +10,4 @@ message BigQueryTablePartition {
   int64 start_index = 1;
   int64 end_index = 2;
 };
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/cloud";

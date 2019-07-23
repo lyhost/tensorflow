@@ -25,3 +25,4 @@ message TopologyProto {
   // `axis`-th coordinate in the topology of a task/device pair.
   repeated int32 device_coordinates = 4;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf";

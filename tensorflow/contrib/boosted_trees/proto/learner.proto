@@ -150,3 +150,4 @@ message LearnerConfig {
   // By default we use NORMAL_DECISION_TREE as weak learner.
   WeakLearnerType weak_learner_type = 12;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/boosted_trees";

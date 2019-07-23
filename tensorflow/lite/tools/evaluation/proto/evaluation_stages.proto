@@ -315,3 +315,4 @@ message ObjectDetectionMetrics {
   optional TfliteInferenceMetrics inference_metrics = 3;
   optional ObjectDetectionAveragePrecisionMetrics average_precision_metrics = 4;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/lite/tools";

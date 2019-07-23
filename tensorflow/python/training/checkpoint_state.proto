@@ -20,3 +20,4 @@ message CheckpointState {
   // checkpoint.
   double last_preserved_timestamp = 4;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/python/training";

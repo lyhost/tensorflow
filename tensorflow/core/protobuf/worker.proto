@@ -586,3 +586,4 @@ message StepSequence {
 message GetStepSequenceResponse {
   repeated StepSequence step_sequence = 1;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf";

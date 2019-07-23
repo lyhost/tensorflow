@@ -66,3 +66,4 @@ service VerbsService {
   rpc GetRemoteAddress(GetRemoteAddressRequest)
       returns (GetRemoteAddressResponse);
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/verbs";

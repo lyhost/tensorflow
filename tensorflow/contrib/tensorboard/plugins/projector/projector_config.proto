@@ -44,3 +44,4 @@ message ProjectorConfig {
   // latest checkpoint file.
   string model_checkpoint_dir = 3;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/tensorboard";

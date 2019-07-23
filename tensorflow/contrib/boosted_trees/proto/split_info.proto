@@ -26,3 +26,4 @@ message ObliviousSplitInfo {
   // children_parent_id.
   repeated int32 children_parent_id = 3;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/boosted_trees";

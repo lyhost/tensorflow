@@ -93,3 +93,4 @@ message TPUEmbeddingConfiguration {
   // not set it unless you know what you are doing.
   TPUEmbeddingOutputLayout output_layout = 8;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf";

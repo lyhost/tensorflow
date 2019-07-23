@@ -97,3 +97,4 @@ message TreePath {
   // is the tree's root node.
   repeated decision_trees.TreeNode nodes_visited = 1;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/tensor_forest";

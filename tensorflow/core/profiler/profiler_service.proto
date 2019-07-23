@@ -131,3 +131,4 @@ message MonitorResponse {
 
   // next-field: 2
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/profiler";

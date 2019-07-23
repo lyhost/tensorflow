@@ -297,3 +297,4 @@ message StateVariableSpecification {
     FillWithConstant fill_with_constant = 3;
   }
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf";

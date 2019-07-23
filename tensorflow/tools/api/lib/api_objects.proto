@@ -40,3 +40,4 @@ message TFAPIObject {
   optional TFAPIClass tf_class = 3;
   optional TFAPIProto tf_proto = 4;
 };
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/tools/api";

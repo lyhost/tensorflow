@@ -94,3 +94,4 @@ message XlaJitCompilationActivity {
   // Total microseconds spent in (re-)compiling this cluster so far.
   int64 cumulative_compile_time_us = 4;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/compiler/jit";

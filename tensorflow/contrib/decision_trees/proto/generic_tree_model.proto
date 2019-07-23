@@ -181,3 +181,4 @@ message Value {
     google.protobuf.Any custom_value = 5;
   }
 };
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/decision_trees";

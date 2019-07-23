@@ -17,3 +17,4 @@ message PaddingMap {
   // of the real shape.
   int32 padding_arg_index = 3;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf";

@@ -47,3 +47,4 @@ message WithMap {
   map<int32, Small> value_message = 1;
   map<string, string> value_string = 2;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/python/util";

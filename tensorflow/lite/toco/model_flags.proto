@@ -182,3 +182,4 @@ message ModelFlags {
   // ranges of concat operator to the overlap of all input ranges.
   optional bool change_concat_input_ranges = 19 [default = true];
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/lite/toco";

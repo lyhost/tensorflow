@@ -109,3 +109,4 @@ enum ForeignEnum {
 
 message TestEmptyMessage {
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/tools/proto_text";

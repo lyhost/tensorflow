@@ -62,3 +62,4 @@ message MPIResponse {
   // Empty unless response_type is ERROR.
   string error_message = 3;
 };
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/mpi_collectives";

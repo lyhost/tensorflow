@@ -152,3 +152,4 @@ message TensorForestParams {
   // this many classes.
   int32 num_classes_to_track = 24;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/contrib/tensor_forest";

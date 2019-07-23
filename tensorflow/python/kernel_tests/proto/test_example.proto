@@ -179,3 +179,4 @@ message RepeatedMessageValue {
 
   repeated NestedMessageValue message_values = 11;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/python/kernel_tests";

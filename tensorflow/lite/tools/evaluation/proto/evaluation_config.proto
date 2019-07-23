@@ -44,3 +44,4 @@ message EvaluationStageMetrics {
   // Process-specific numbers such as latencies, accuracy, etc.
   optional ProcessMetrics process_metrics = 2;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/lite/tools";

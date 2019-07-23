@@ -98,3 +98,4 @@ service EventListener {
   // Send a collection of source code files being debugged.
   rpc SendSourceFiles(DebuggedSourceFiles) returns (EventReply);
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/core/debug";

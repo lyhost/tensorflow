@@ -526,3 +526,4 @@ message UnpackRequest {
 message UnpackResponse {
   repeated GlobalDataHandle tied_data = 1;
 }
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/compiler/xla";
